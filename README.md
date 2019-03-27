@@ -41,7 +41,7 @@ Suggest to manage your vim plugins via [Vundle][4] so you can install it simply 
 1. add the following line to your vimrc file
 
     ```
-    Plugin 'mzlogin/vim-markdown-toc'
+    Plugin 'xuesoso/vim-markdown-toc'
     ```
 
 2. `:so $MYVIMRC`

@@ -467,5 +467,5 @@ command! UpdateToc :call <SID>UpdateToc()
 command! RemoveToc :call <SID>DeleteExistingToc()
 
 if g:vmt_auto_update_on_save == 1
-    autocmd BufWritePre *.{python,py} if !&diff | exe ':silent! UpdateToc' | endif
+    autocmd BufWritePre *.{python,py,ipynb} if !&diff | exe ':silent! UpdateToc' | endif
 endif
